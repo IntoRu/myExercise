@@ -1,0 +1,68 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 60%;
+}
+
+.box-container {
+    width: 20%;
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    height: 140px;
+    justify-content: space-between;
+
+}
+
+.exerCard {
+    text-align: center;
+    color: blanchedalmond;
+    background: black;
+    width: 150px;
+    padding: 5px;
+    margin: 5px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    height: 175px;
+
+}
+
+.head {
+    min-height: 50px;
+}
+
+.dellCard {
+    border-radius: 5px;
+    font-size: 16px;
+    color: azure;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    background: red;
+
+}
+
+h5,
+h4 {
+    line-height: 0;
+}
+
+input {
+    height: 30px;
+}
+
+button,
+select {
+    height: 37px;
+}
