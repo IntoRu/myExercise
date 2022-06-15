@@ -1,3 +1,4 @@
+// here we go
 const exercise = JSON.parse(localStorage.getItem('exercise')) || [] // тут хранятся тренировки
 const exerGrup = JSON.parse(localStorage.getItem('exerGrup')) || [] // тут хранятся группы тренировок
 
